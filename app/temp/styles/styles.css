@@ -529,131 +529,131 @@ img{max-width: 100%;}
 	}
 
 .row--gutters{
-  margin-right: -65px;
-}
+    margin-right: -65px;
+  }
 
 .row--gutters > div {
-  padding-right: 65px;
-  
-}
+    padding-right: 65px;
+    
+  }
 
 .row__6{
-  float: left;
-     width: 100%;
-  }
+    float: left;
+       width: 100%;
+    }
 
 @media (min-width: 530px) {
 
 .row__6{
-      width:100%
-  }
+        width:100%
+    }
 	}
 
 @media (min-width: 800px) {
 
 .row__6{
-      width:100%
-  }
+        width:100%
+    }
 	}
 
 @media (min-width: 1200px) {
 
 .row__6{
-      width:50%
-  }
+        width:50%
+    }
 	}
 
 .row__4{width: 100%;
-  float: none;
-  padding: 10px 0;
-  box-sizing: border-box;
-}
+    float: none;
+    padding: 10px 0;
+    box-sizing: border-box;
+  }
 
 @media (min-width: 530px) {
 
 .row__4{
+      width: 100%;
+      float: none
+  }
+	}
+
+@media (min-width: 800px) {
+
+.row__4{
+      width: 32%;
+      float: left
+  }
+	}
+
+@media (min-width: 1200px) {
+
+.row__4{
+      width:32%;
+      float: left
+  }
+	}
+
+.row__4-right{
+  width: 100%;
+  float: none;
+  
+  margin-top: 0;
+  }
+
+@media (min-width: 530px) {
+
+.row__4-right{
+    width: 100%;
+    float: right;
+    margin-top: 54px
+  }
+	}
+
+@media (min-width: 800px) {
+
+.row__4-right{
+    width: 32%;
+    float: right;
+    margin-top: 54px
+  }
+	}
+
+@media (min-width: 1200px) {
+
+.row__4-right{
+    width:32%;
+    float: right;
+    margin-top: 54px
+  }
+	}
+
+.row__8{
+  width: 100%;
+  float: none;
+  }
+
+@media (min-width: 530px) {
+
+.row__8{
     width: 100%;
     float: none
-}
+  }
 	}
 
 @media (min-width: 800px) {
 
-.row__4{
-    width: 32%;
+.row__8{
+    width: 66%;
     float: left
-}
+  }
 	}
 
 @media (min-width: 1200px) {
 
-.row__4{
-    width:32%;
+.row__8{
+    width:66%;
     float: left
-}
-	}
-
-.row__4-right{
-width: 100%;
-float: none;
-
-margin-top: 0;
-}
-
-@media (min-width: 530px) {
-
-.row__4-right{
-  width: 100%;
-  float: right;
-  margin-top: 54px
-}
-	}
-
-@media (min-width: 800px) {
-
-.row__4-right{
-  width: 32%;
-  float: right;
-  margin-top: 54px
-}
-	}
-
-@media (min-width: 1200px) {
-
-.row__4-right{
-  width:32%;
-  float: right;
-  margin-top: 54px
-}
-	}
-
-.row__8{
-width: 100%;
-float: none;
-}
-
-@media (min-width: 530px) {
-
-.row__8{
-  width: 100%;
-  float: none
-}
-	}
-
-@media (min-width: 800px) {
-
-.row__8{
-  width: 66%;
-  float: left
-}
-	}
-
-@media (min-width: 1200px) {
-
-.row__8{
-  width:66%;
-  float: left
-}
+  }
 	}
 
 #services {  /* The image used */
