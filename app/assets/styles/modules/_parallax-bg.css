@@ -1,0 +1,30 @@
+#services {  /* The image used */
+  background-image:linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)),url(../../assets/img/services-bg.jpg);margin-top: 50px;
+
+  /* Set a specific height */
+  min-height: 500px; padding-top: 50px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;}
+
+  .subscribes{
+    /* The image used */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../assets/img/subscribe-bg.jpg);
+  
+    /* Set a specific height */
+     padding: 10px 0;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    @mixin atSmall{
+      padding: 80px 0;
+    }
+  
+  }

@@ -1,0 +1,13 @@
+.services{
+padding-bottom: 50px;
+
+  &--subtitle{
+    font-size: 18px;
+    color:#111;
+    text-decoration:none;
+    margin-left: 80px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+  }
+}

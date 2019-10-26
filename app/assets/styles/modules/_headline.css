@@ -22,4 +22,7 @@
       }
     }
     &--m-b{margin-bottom: 40px;}
+
+
+    &--m-left{margin-left: 80px;}
 }
