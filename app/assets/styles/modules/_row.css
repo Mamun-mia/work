@@ -81,4 +81,24 @@
     float: left;
   }
   } 
+
+  &__3{
+    width: 100%;
+    float: left;
+    float: none;
+  @mixin atSmall{
+    width: 100%;
+    float: none;
+  }
+  @mixin atMedium{
+    width: 25%;
+    float: left;
+    padding:0 15px
+  }
+  @mixin atLarge{
+    width:25%;
+    float: left;
+    padding:10px
+  }
+  }
   }

@@ -1,6 +1,7 @@
 var gulp = require('gulp'),
 watch = require('gulp-watch'),
-browserSync = require('browser-sync').create();
+browserSync = require('browser-sync').create(),
+concat = require('gulp-concat');
 
 gulp.task('watch', function() {
   browserSync.init({
