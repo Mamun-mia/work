@@ -3,4 +3,5 @@
   @mixin atMedium{
     padding:4.5rem 0rem 
   } 
+  &--p-b{padding:2.5rem 0rem;}
 }

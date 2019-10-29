@@ -101,4 +101,25 @@
     padding:10px
   }
   }
+  &__9{
+    width: 100%;
+    @mixin atSmall{
+      width: 100%;
+      float: none;
+    }
+    @mixin atMedium{
+      width: 75%;
+      
+    }
+    @mixin atLarge{
+      width:75%;
+      
+    }
+  }
+  &__9-left{float: left;
+  
+  }
+  &__9-right{float: right;
+
+  }
   }

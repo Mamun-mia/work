@@ -1,0 +1,47 @@
+.testimonials{
+  background: #f6f6f6;
+  
+
+  &--pic{
+    border-radius: 50%;
+    border: 6px solid #fff;
+    margin-bottom: 15px;
+    overflow: hidden;
+    height: 260px;
+    width: 260px;
+    @mixin atMedium{
+      height: 235px;
+    }
+    @mixin atLarge{
+      height: 260px;
+    }
+  }
+
+  &--comma{background: #fff;display: inline-block;
+    right: -5px;
+    position: relative;
+    top: 6px;}
+    &--pic-area{
+      text-align: center;
+    }
+  &--name{font-family: "Raleway", sans-serif;
+    font-weight: 700;
+  color: #03C4EB;
+  margin-bottom: 5px;
+    margin: 0 0 10px 0;
+    padding: 0;
+    font-size: 18px;
+  }
+  &--degree{
+    color: #333333;
+  }
+
+  &--quote{position: relative;
+    background: #fff;
+    padding: 60px;
+    margin-top: 40px;
+    font-size: 16px;
+    font-style: italic;
+    border-radius: 5px;color: #666666;line-height: 134%;
+}
+}
