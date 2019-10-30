@@ -122,4 +122,36 @@
   &__9-right{float: right;
 
   }
+  &__5{width: 100%;float: none;
+    @mixin atSmall{
+      width: 100%;
+      float: none;
+    }
+    @mixin atMedium{
+      width: 60%;float: right;
+      
+    }
+    @mixin atLarge{
+      width:60%;float: right;
+      
+    }
+  
+  }
+
+ &__3-contact{
+   width: 100%;float: none;
+
+   @mixin atSmall{
+    width: 100%;
+    float: none;
+  }
+  @mixin atMedium{
+    width: 40%;
+    float: left;
+  }
+  @mixin atLarge{
+    width:40%;
+    float: left;
+  } 
+ }
   }

@@ -1,0 +1,84 @@
+.contact{
+
+background:#f7f7f7 ;
+  &--info{
+    color: #333333;margin-left:0;
+    @mixin atSmall{
+      margin-left:0px;
+    }
+    @mixin atMedium{
+      margin-left:180px;
+    }
+    @mixin atLarge{
+      margin-left:210px;
+    }
+  }
+
+  &--i{
+    font-size: 32px;
+    color: #03C4EB;
+    float: left;margin-top: 8px;
+  }
+
+  &--p{
+    padding: 0 0 10px 50px;
+    line-height: 35px;color:rgb(102, 102, 102);
+  }
+  &--form-group{
+    margin-bottom: 15px;
+  }
+  &--form-control{
+    display: block;
+    width: 280px;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    margin-left: 0;
+    @mixin atSmall{
+      width: 100%;margin-left: 0;
+    }
+    @mixin atMedium{
+      width: 100%;margin-left: 0;
+    }
+    @mixin atMedium{
+      width: 457px;margin-left: 60px;
+    }
+  }
+  &--form-control-message{width: 280px;
+    height: auto;padding-left: 13px;
+    margin-left: 0;color: #555;
+    background-color: #fff;border: 1px solid #ccc;
+    @mixin atSmall{
+      width: 100%;margin-left: 0;
+    }
+    @mixin atMedium{
+      width: 100%;margin-left: 0;
+    }
+    @mixin atMedium{
+      width: 457px;margin-left: 60px;
+    }
+  
+  }
+  &--text-center{text-align: center;margin-right: 0px;
+    @mixin atSmall{
+      margin-right: 0px;
+    }
+  @mixin atMedium{
+    margin-right: 0px;
+  }
+  @mixin atLarge{
+    margin-right: 120px;
+  }
+}
+  &--text-center-submt{background: #03C4EB;
+    border: 0;
+    padding: 10px 24px;
+    color: #fff;
+    transition: 0.4s;}
+    &--text-center-submt:hover{background: rgb(96, 214, 238);}
+}

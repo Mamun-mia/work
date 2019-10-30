@@ -730,6 +730,63 @@ img{max-width: 100%;}
 
   }
 
+.row__5{width: 100%;float: none;
+  
+  }
+
+@media (min-width: 530px) {
+
+.row__5{
+      width: 100%;
+      float: none
+  
+  }
+	}
+
+@media (min-width: 800px) {
+
+.row__5{
+      width: 60%;float: right
+  
+  }
+	}
+
+@media (min-width: 1200px) {
+
+.row__5{
+      width:60%;float: right
+  
+  }
+	}
+
+.row__3-contact{
+   width: 100%;float: none; 
+ }
+
+@media (min-width: 530px) {
+
+.row__3-contact{
+    width: 100%;
+    float: none 
+ }
+	}
+
+@media (min-width: 800px) {
+
+.row__3-contact{
+    width: 40%;
+    float: left 
+ }
+	}
+
+@media (min-width: 1200px) {
+
+.row__3-contact{
+    width:40%;
+    float: left 
+ }
+	}
+
 #services {  /* The image used */
   background-image:linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)),url(../../assets/img/services-bg.jpg);margin-top: 50px;
 
@@ -988,4 +1045,147 @@ padding-bottom: 50px;
 .team--a:hover{
     color: #03C4EB;
   }
+
+.contact{
+
+background:#f7f7f7 ;
+}
+
+.contact--info{
+    color: #333333;margin-left:0;
+  }
+
+@media (min-width: 530px) {
+
+.contact--info{
+      margin-left:0px
+  }
+	}
+
+@media (min-width: 800px) {
+
+.contact--info{
+      margin-left:180px
+  }
+	}
+
+@media (min-width: 1200px) {
+
+.contact--info{
+      margin-left:210px
+  }
+	}
+
+.contact--i{
+    font-size: 32px;
+    color: #03C4EB;
+    float: left;margin-top: 8px;
+  }
+
+.contact--p{
+    padding: 0 0 10px 50px;
+    line-height: 35px;color:rgb(102, 102, 102);
+  }
+
+.contact--form-group{
+    margin-bottom: 15px;
+  }
+
+.contact--form-control{
+    display: block;
+    width: 280px;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    margin-left: 0;
+  }
+
+@media (min-width: 530px) {
+
+.contact--form-control{
+      width: 100%;margin-left: 0
+  }
+	}
+
+@media (min-width: 800px) {
+
+.contact--form-control{
+      width: 100%;margin-left: 0
+  }
+	}
+
+@media (min-width: 800px) {
+
+.contact--form-control{
+      width: 457px;margin-left: 60px
+  }
+	}
+
+.contact--form-control-message{width: 280px;
+    height: auto;padding-left: 13px;
+    margin-left: 0;color: #555;
+    background-color: #fff;border: 1px solid #ccc;
+  
+  }
+
+@media (min-width: 530px) {
+
+.contact--form-control-message{
+      width: 100%;margin-left: 0
+  
+  }
+	}
+
+@media (min-width: 800px) {
+
+.contact--form-control-message{
+      width: 100%;margin-left: 0
+  
+  }
+	}
+
+@media (min-width: 800px) {
+
+.contact--form-control-message{
+      width: 457px;margin-left: 60px
+  
+  }
+	}
+
+.contact--text-center{text-align: center;margin-right: 0px;
+}
+
+@media (min-width: 530px) {
+
+.contact--text-center{
+      margin-right: 0px
+}
+	}
+
+@media (min-width: 800px) {
+
+.contact--text-center{
+    margin-right: 0px
+}
+	}
+
+@media (min-width: 1200px) {
+
+.contact--text-center{
+    margin-right: 120px
+}
+	}
+
+.contact--text-center-submt{background: #03C4EB;
+    border: 0;
+    padding: 10px 24px;
+    color: #fff;
+    transition: 0.4s;}
+
+.contact--text-center-submt:hover{background: rgb(96, 214, 238);}
 
