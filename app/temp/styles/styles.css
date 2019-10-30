@@ -1189,3 +1189,40 @@ background:#f7f7f7 ;
 
 .contact--text-center-submt:hover{background: rgb(96, 214, 238);}
 
+.footer{
+  background: #111;
+    padding: 30px 0;
+    color: #fff;
+}
+
+.footer--copyright{
+      text-align: center;
+    }
+
+.footer--credits{
+      padding-top: 10px;
+    text-align: center;
+    font-size: 13px;
+    color: #ccc;
+    }
+
+.footer--back-to-top{position: fixed;
+      
+      background: rgba(0, 0, 0, 0.2);
+      color: #fff;
+      padding: 6px 12px 9px 12px;
+      font-size: 16px;
+      border-radius: 2px;
+      right: 15px;
+      bottom: 15px;
+      transition: background 0.5s;}
+
+.footer--back-to-top:hover{
+        background: #03C4EB;
+      }
+
+.footer--a{text-decoration: none;
+        color: #03C4EB;
+        transition: 0.5s;
+      }
+
