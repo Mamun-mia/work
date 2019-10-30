@@ -949,3 +949,43 @@ padding-bottom: 50px;
     border-radius: 5px;color: #666666;line-height: 134%;
 }
 
+.team{
+ background: #fff;
+    color: #666666;
+}
+
+.team--member{
+    text-align: center;
+    margin-bottom: 20px; 
+  }
+
+.team--pic{
+    margin-bottom: 15px;
+    overflow: hidden;
+    height: 260px;
+  }
+
+.team--h4{
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-size: 18px;
+  }
+
+.team--span{
+    font-style: italic;
+    display: block;
+    font-size: 13px
+  }
+
+.team--social{
+    margin-top: 15px;;
+  }
+
+.team--a{
+    color: #b3b3b3;font-size: 18px;
+  }
+
+.team--a:hover{
+    color: #03C4EB;
+  }
+

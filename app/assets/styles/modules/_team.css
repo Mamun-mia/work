@@ -1,0 +1,32 @@
+.team{
+ background: #fff;
+    color: #666666;
+  &--member{
+    text-align: center;
+    margin-bottom: 20px; 
+  }
+  &--pic{
+    margin-bottom: 15px;
+    overflow: hidden;
+    height: 260px;
+  }
+  &--h4{
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-size: 18px;
+  }
+  &--span{
+    font-style: italic;
+    display: block;
+    font-size: 13px
+  }
+  &--social{
+    margin-top: 15px;;
+  }
+  &--a{
+    color: #b3b3b3;font-size: 18px;
+  }
+  &--a:hover{
+    color: #03C4EB;
+  }
+}
