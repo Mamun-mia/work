@@ -710,6 +710,15 @@ padding-bottom: 50px;
     text-transform: uppercase;
   }
 
+.services--icon{
+    float: left;
+    background: #03C4EB;
+    padding: 16px;
+    border-radius: 50%;
+    transition: 0.5s;
+    border: 1px solid #03C4EB;
+  }
+
 .subscribes__btn{
     font-family: "Raleway", sans-serif;
     text-transform: uppercase;
