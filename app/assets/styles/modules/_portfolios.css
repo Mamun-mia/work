@@ -13,7 +13,7 @@
    margin-bottom: 30px;text-decoration: none;box-sizing:border-box;
   }
  
-  &--detail{
+  &--details{
    height: 260px;
    background: #fff;
    display: table-cell;
@@ -22,7 +22,7 @@
    transition: 0.3s;
    text-align: center;
   }
-  &--detail:hover{opacity: .8;}
+  &--details:hover{opacity: .8;}
  
    &--title{font-size: 16px;
      transition: transform 0.3s, opacity 0.3s;
@@ -36,6 +36,6 @@
      transition: transform 0.3s, opacity 0.3s;
      
      }
-     &--detail:hover &--title{transform: translate3d(0, 15px, 0);padding:25px 0}
-     &--detail:hover &--subtitle{transform: translate3d(0, -15px, 0);}
+     &--details:hover &--title{transform: translate3d(0, 15px, 0);padding:25px 0}
+     &--details:hover &--subtitle{transform: translate3d(0, -15px, 0);}
  }

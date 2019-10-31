@@ -829,18 +829,36 @@ img{max-width: 100%;}
 
 .services{
   padding-bottom: 50px;
-  
     
   }
+
+.services--title{margin-left: 80px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    text-transform: uppercase}
 
 .services--subtitle{
       font-size: 18px;
       color:#111;
       text-decoration:none;
-      margin-left: 80px;
+      margin-right: 10px;
       font-weight: 700;
       margin-bottom: 15px;
       text-transform: uppercase;
+    }
+
+.services--icon{float: left;
+    background: #03C4EB;
+    padding: 16px;
+    border-radius: 50%;
+    transition: 0.5s;
+    border: 1px solid #03C4EB;
+    box-sizing: border-box
+  }
+
+.services--i{
+color: #fff;
+    font-size: 24px;
     }
 
 .subscribes__btn{
@@ -921,7 +939,7 @@ img{max-width: 100%;}
    margin-bottom: 30px;text-decoration: none;box-sizing:border-box;
   }
 
-.portfolios--detail{
+.portfolios--details{
    height: 260px;
    background: #fff;
    display: table-cell;
@@ -931,7 +949,7 @@ img{max-width: 100%;}
    text-align: center;
   }
 
-.portfolios--detail:hover{opacity: .8;}
+.portfolios--details:hover{opacity: .8;}
 
 .portfolios--title{font-size: 16px;
      transition: transform 0.3s, opacity 0.3s;
@@ -946,9 +964,9 @@ img{max-width: 100%;}
      
      }
 
-.portfolios--detail:hover .portfolios--title{transform: translate3d(0, 15px, 0);padding:25px 0}
+.portfolios--details:hover .portfolios--title{transform: translate3d(0, 15px, 0);padding:25px 0}
 
-.portfolios--detail:hover .portfolios--subtitle{transform: translate3d(0, -15px, 0);}
+.portfolios--details:hover .portfolios--subtitle{transform: translate3d(0, -15px, 0);}
 
 .testimonials{
   background: #f6f6f6;
@@ -1041,7 +1059,7 @@ img{max-width: 100%;}
    }
 
 .team--a{
-     color: #b3b3b3;font-size: 18px;
+     color: #b3b3b3;font-size: 18px;padding: 0 2px;
    }
 
 .team--a:hover{

@@ -24,7 +24,7 @@
      margin-top: 15px;;
    }
    &--a{
-     color: #b3b3b3;font-size: 18px;
+     color: #b3b3b3;font-size: 18px;padding: 0 2px;
    }
    &--a:hover{
      color: #03C4EB;
