@@ -1,41 +1,41 @@
 .portfolios{
 
 
- &--portfolio-item{
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: relative;
-  height: 260px;
-  width: 100%;
-  display: table;
-  overflow: hidden;
-  margin-bottom: 30px;text-decoration: none;box-sizing:border-box;
+  &--portfolio-item{
+   background-position: center center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   position: relative;
+   height: 260px;
+   width: 100%;
+   display: table;
+   overflow: hidden;
+   margin-bottom: 30px;text-decoration: none;box-sizing:border-box;
+  }
+ 
+  &--detail{
+   height: 260px;
+   background: #fff;
+   display: table-cell;
+   vertical-align: middle;
+   opacity: 0;
+   transition: 0.3s;
+   text-align: center;
+  }
+  &--detail:hover{opacity: .8;}
+ 
+   &--title{font-size: 16px;
+     transition: transform 0.3s, opacity 0.3s;
+     font-weight: 700;
+     color: #333333;}
+ 
+     &--subtitle{
+       display: block;
+     color: #000;
+     font-size: 13px;
+     transition: transform 0.3s, opacity 0.3s;
+     
+     }
+     &--detail:hover &--title{transform: translate3d(0, 15px, 0);padding:25px 0}
+     &--detail:hover &--subtitle{transform: translate3d(0, -15px, 0);}
  }
-
- &--detail{
-  height: 260px;
-  background: #fff;
-  display: table-cell;
-  vertical-align: middle;
-  opacity: 0;
-  transition: 0.3s;
-  text-align: center;
- }
- &--detail:hover{opacity: .8;}
-
-  &--title{font-size: 16px;
-    transition: transform 0.3s, opacity 0.3s;
-    font-weight: 700;
-    color: #333333;}
-
-    &--subtitle{
-      display: block;
-    color: #666666;
-    font-size: 13px;
-    transition: transform 0.3s, opacity 0.3s;
-    
-    }
-    &--detail:hover &--title{transform: translate3d(0, 15px, 0);padding:25px 0}
-    &--detail:hover &--subtitle{transform: translate3d(0, -15px, 0);}
-}

@@ -829,6 +829,8 @@ margin: 1.8rem 0;
 
 .services{
 padding-bottom: 50px;
+
+  
 }
 
 .services--subtitle{
@@ -839,15 +841,6 @@ padding-bottom: 50px;
     font-weight: 700;
     margin-bottom: 15px;
     text-transform: uppercase;
-  }
-
-.services--icon{
-    float: left;
-    background: #03C4EB;
-    padding: 16px;
-    border-radius: 50%;
-    transition: 0.5s;
-    border: 1px solid #03C4EB;
   }
 
 .subscribes__btn{
@@ -917,41 +910,41 @@ padding-bottom: 50px;
 	}
 
 .portfolios--portfolio-item{
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: relative;
-  height: 260px;
-  width: 100%;
-  display: table;
-  overflow: hidden;
-  margin-bottom: 30px;text-decoration: none;box-sizing:border-box;
- }
+   background-position: center center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   position: relative;
+   height: 260px;
+   width: 100%;
+   display: table;
+   overflow: hidden;
+   margin-bottom: 30px;text-decoration: none;box-sizing:border-box;
+  }
 
 .portfolios--detail{
-  height: 260px;
-  background: #fff;
-  display: table-cell;
-  vertical-align: middle;
-  opacity: 0;
-  transition: 0.3s;
-  text-align: center;
- }
+   height: 260px;
+   background: #fff;
+   display: table-cell;
+   vertical-align: middle;
+   opacity: 0;
+   transition: 0.3s;
+   text-align: center;
+  }
 
 .portfolios--detail:hover{opacity: .8;}
 
 .portfolios--title{font-size: 16px;
-    transition: transform 0.3s, opacity 0.3s;
-    font-weight: 700;
-    color: #333333;}
+     transition: transform 0.3s, opacity 0.3s;
+     font-weight: 700;
+     color: #333333;}
 
 .portfolios--subtitle{
-      display: block;
-    color: #666666;
-    font-size: 13px;
-    transition: transform 0.3s, opacity 0.3s;
-    
-    }
+       display: block;
+     color: #000;
+     font-size: 13px;
+     transition: transform 0.3s, opacity 0.3s;
+     
+     }
 
 .portfolios--detail:hover .portfolios--title{transform: translate3d(0, 15px, 0);padding:25px 0}
 
