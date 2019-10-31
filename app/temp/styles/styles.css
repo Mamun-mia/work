@@ -823,25 +823,25 @@ img{max-width: 100%;}
 	}
 
 .generic-content-container{
-line-height: 1.6;
-margin: 1.8rem 0;
-}
+  line-height: 1.6;
+  margin: 1.8rem 0;
+  }
 
 .services{
-padding-bottom: 50px;
-
+  padding-bottom: 50px;
   
-}
+    
+  }
 
 .services--subtitle{
-    font-size: 18px;
-    color:#111;
-    text-decoration:none;
-    margin-left: 80px;
-    font-weight: 700;
-    margin-bottom: 15px;
-    text-transform: uppercase;
-  }
+      font-size: 18px;
+      color:#111;
+      text-decoration:none;
+      margin-left: 80px;
+      font-weight: 700;
+      margin-bottom: 15px;
+      text-transform: uppercase;
+    }
 
 .subscribes__btn{
     font-family: "Raleway", sans-serif;
@@ -1009,185 +1009,185 @@ padding-bottom: 50px;
 }
 
 .team{
- background: #fff;
-    color: #666666;
-}
+  background: #fff;
+     color: #666666;
+ }
 
 .team--member{
-    text-align: center;
-    margin-bottom: 20px; 
-  }
+     text-align: center;
+     margin-bottom: 20px; 
+   }
 
 .team--pic{
-    margin-bottom: 15px;
-    overflow: hidden;
-    height: 260px;
-  }
+     margin-bottom: 15px;
+     overflow: hidden;
+     height: 260px;
+   }
 
 .team--h4{
-    font-weight: 700;
-    margin-bottom: 5px;
-    font-size: 18px;
-  }
+     font-weight: 700;
+     margin-bottom: 5px;
+     font-size: 18px;
+   }
 
 .team--span{
-    font-style: italic;
-    display: block;
-    font-size: 13px
-  }
+     font-style: italic;
+     display: block;
+     font-size: 13px
+   }
 
 .team--social{
-    margin-top: 15px;;
-  }
+     margin-top: 15px;;
+   }
 
 .team--a{
-    color: #b3b3b3;font-size: 18px;
-  }
+     color: #b3b3b3;font-size: 18px;
+   }
 
 .team--a:hover{
-    color: #03C4EB;
-  }
+     color: #03C4EB;
+   }
 
 .contact{
 
-background:#f7f7f7 ;
-}
+  background:#f7f7f7 ;
+  }
 
 .contact--info{
-    color: #333333;margin-left:0;
-  }
+      color: #333333;margin-left:0;
+    }
 
 @media (min-width: 530px) {
 
 .contact--info{
-      margin-left:0px
-  }
+        margin-left:0px
+    }
 	}
 
 @media (min-width: 800px) {
 
 .contact--info{
-      margin-left:180px
-  }
+        margin-left:180px
+    }
 	}
 
 @media (min-width: 1200px) {
 
 .contact--info{
-      margin-left:210px
-  }
+        margin-left:210px
+    }
 	}
 
 .contact--i{
-    font-size: 32px;
-    color: #03C4EB;
-    float: left;margin-top: 8px;
-  }
+      font-size: 32px;
+      color: #03C4EB;
+      float: left;margin-top: 8px;
+    }
 
 .contact--p{
-    padding: 0 0 10px 50px;
-    line-height: 35px;color:rgb(102, 102, 102);
-  }
+      padding: 0 0 10px 50px;
+      line-height: 35px;color:rgb(102, 102, 102);
+    }
 
 .contact--form-group{
-    margin-bottom: 15px;
-  }
+      margin-bottom: 15px;
+    }
 
 .contact--form-control{
-    display: block;
-    width: 280px;
-    height: 34px;
-    padding: 6px 12px;
-    font-size: 14px;
-    line-height: 1.42857143;
-    color: #555;
-    background-color: #fff;
-    background-image: none;
-    border: 1px solid #ccc;
-    margin-left: 0;
-  }
+      display: block;
+      width: 280px;
+      height: 34px;
+      padding: 6px 12px;
+      font-size: 14px;
+      line-height: 1.42857143;
+      color: #555;
+      background-color: #fff;
+      background-image: none;
+      border: 1px solid #ccc;
+      margin-left: 0;
+    }
 
 @media (min-width: 530px) {
 
 .contact--form-control{
-      width: 100%;margin-left: 0
-  }
+        width: 100%;margin-left: 0
+    }
 	}
 
 @media (min-width: 800px) {
 
 .contact--form-control{
-      width: 100%;margin-left: 0
-  }
+        width: 100%;margin-left: 0
+    }
 	}
 
 @media (min-width: 800px) {
 
 .contact--form-control{
-      width: 457px;margin-left: 60px
-  }
+        width: 457px;margin-left: 60px
+    }
 	}
 
 .contact--form-control-message{width: 280px;
-    height: auto;padding-left: 13px;
-    margin-left: 0;color: #555;
-    background-color: #fff;border: 1px solid #ccc;
-  
-  }
+      height: auto;padding-left: 13px;
+      margin-left: 0;color: #555;
+      background-color: #fff;border: 1px solid #ccc;
+    
+    }
 
 @media (min-width: 530px) {
 
 .contact--form-control-message{
-      width: 100%;margin-left: 0
-  
-  }
+        width: 100%;margin-left: 0
+    
+    }
 	}
 
 @media (min-width: 800px) {
 
 .contact--form-control-message{
-      width: 100%;margin-left: 0
-  
-  }
+        width: 100%;margin-left: 0
+    
+    }
 	}
 
 @media (min-width: 800px) {
 
 .contact--form-control-message{
-      width: 457px;margin-left: 60px
-  
-  }
+        width: 457px;margin-left: 60px
+    
+    }
 	}
 
 .contact--text-center{text-align: center;margin-right: 0px;
-}
+  }
 
 @media (min-width: 530px) {
 
 .contact--text-center{
-      margin-right: 0px
-}
+        margin-right: 0px
+  }
 	}
 
 @media (min-width: 800px) {
 
 .contact--text-center{
-    margin-right: 0px
-}
+      margin-right: 0px
+  }
 	}
 
 @media (min-width: 1200px) {
 
 .contact--text-center{
-    margin-right: 120px
-}
+      margin-right: 120px
+  }
 	}
 
 .contact--text-center-submt{background: #03C4EB;
-    border: 0;
-    padding: 10px 24px;
-    color: #fff;
-    transition: 0.4s;}
+      border: 0;
+      padding: 10px 24px;
+      color: #fff;
+      transition: 0.4s;}
 
 .contact--text-center-submt:hover{background: rgb(96, 214, 238);}
 
